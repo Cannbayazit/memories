@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\F_projeler\mem\memories2\build\windows\_deps\nuget-subbuild\CMakeFiles\ea401c7409e6aff108ead51c47b749bc\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{98D6645D-490E-3A95-B548-C2EE4AA72180}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

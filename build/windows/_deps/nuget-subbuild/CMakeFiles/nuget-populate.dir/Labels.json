@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/ea401c7409e6aff108ead51c47b749bc/nuget-populate.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/be7d728d65e948303670fe1197368672/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/1665be8476a747e3052b3d64e7a13c28/nuget-populate-build.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/1665be8476a747e3052b3d64e7a13c28/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/1665be8476a747e3052b3d64e7a13c28/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/1665be8476a747e3052b3d64e7a13c28/nuget-populate-download.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/1665be8476a747e3052b3d64e7a13c28/nuget-populate-install.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/1665be8476a747e3052b3d64e7a13c28/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/1665be8476a747e3052b3d64e7a13c28/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/1665be8476a747e3052b3d64e7a13c28/nuget-populate-test.rule"
+		},
+		{
+			"file" : "C:/F_projeler/mem/memories2/build/windows/_deps/nuget-subbuild/CMakeFiles/1665be8476a747e3052b3d64e7a13c28/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}

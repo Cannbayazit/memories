@@ -1,0 +1,28 @@
+^C:\F_PROJELER\MEM\MEMORIES2\BUILD\WINDOWS\CMAKEFILES\5C96D22C21C4DA21CBE2AF1E0E15BF7F\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\F_projeler\mem\memories2 FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\F_projeler\mem\memories2\windows\flutter\ephemeral PROJECT_DIR=C:\F_projeler\mem\memories2 FLUTTER_TARGET=C:\F_projeler\mem\memories2\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false EXTRA_FRONT_END_OPTIONS=--no-sound-null-safety TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\F_projeler\mem\memories2\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\F_PROJELER\MEM\MEMORIES2\BUILD\WINDOWS\CMAKEFILES\AFC14DF67BE8314D47E37258280D1BC6\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\F_PROJELER\MEM\MEMORIES2\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/F_projeler/mem/memories2/windows -BC:/F_projeler/mem/memories2/build/windows --check-stamp-file C:/F_projeler/mem/memories2/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
