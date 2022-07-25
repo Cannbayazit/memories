@@ -1,5 +1,4 @@
 import 'dart:typed_data';
-
 import 'package:flutter/material.dart';
 import 'package:image_gallery_saver/image_gallery_saver.dart';
 import 'package:memories2/models/text_info.dart';
@@ -9,7 +8,7 @@ import 'package:memories2/widgets/default_button.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:screenshot/screenshot.dart';
 
-abstract class EditImageViewModel extends State<EditImageScreen> {
+class EditImageViewModel extends State<EditImageScreen> {
   TextEditingController textEditingController = TextEditingController();
   TextEditingController creatorText = TextEditingController();
   ScreenshotController screenshotController = ScreenshotController();
@@ -187,5 +186,11 @@ abstract class EditImageViewModel extends State<EditImageScreen> {
         ],
       ),
     );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    throw UnimplementedError();
   }
 }

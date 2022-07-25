@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 Future<bool> requestPermission(Permission permission) async {
@@ -11,3 +12,13 @@ Future<bool> requestPermission(Permission permission) async {
   }
   return false;
 }
+
+Row get _row => Row(
+      children: [
+        Text("ZARAKI KEMPACHI"),
+        Image(
+          image: NetworkImage(
+              "https://static.zerochan.net/Zaraki.Kenpachi.full.62546.jpg"),
+        )
+      ],
+    );
