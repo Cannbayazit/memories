@@ -264,21 +264,6 @@ class _EditImageScreenState extends EditImageViewModel {
                   ),
                 ),
               ),
-              const SizedBox(
-                width: 5,
-              ),
-              Tooltip(
-                message: "Pembe",
-                child: GestureDetector(
-                  onTap: () => changeTextColor(Colors.pink),
-                  child: const CircleAvatar(
-                    backgroundColor: Colors.pink,
-                  ),
-                ),
-              ),
-              const SizedBox(
-                width: 5,
-              ),
             ],
           ),
         ),
