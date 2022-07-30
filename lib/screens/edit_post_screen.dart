@@ -1,3 +1,5 @@
+// ignore_for_file: sized_box_for_whitespace, avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:memories2/widgets/custom_battom_navigationbar.dart';
@@ -65,8 +67,8 @@ class EditPostScreen extends StatelessWidget {
                               allowHalfRating: true,
                               itemCount: 5,
                               itemPadding:
-                                  EdgeInsets.symmetric(horizontal: 4.0),
-                              itemBuilder: (context, _) => Icon(
+                                  const EdgeInsets.symmetric(horizontal: 4.0),
+                              itemBuilder: (context, _) => const Icon(
                                 Icons.star,
                                 color: Color.fromRGBO(57, 255, 20, 1),
                               ),
@@ -82,12 +84,12 @@ class EditPostScreen extends StatelessWidget {
                             height: MediaQuery.of(context).size.height * 0.1,
                             color: Colors.black,
                             alignment: Alignment.centerLeft,
-                            child: TextField(
+                            child: const TextField(
                               cursorColor: Color.fromRGBO(57, 255, 20, 1),
                               maxLines: 1,
                               cursorHeight: 22,
                               cursorWidth: 4,
-                              decoration: const InputDecoration(
+                              decoration: InputDecoration(
                                   suffixIcon: Icon(
                                     Icons.edit,
                                     color: Color.fromRGBO(57, 255, 20, 1),
@@ -105,12 +107,12 @@ class EditPostScreen extends StatelessWidget {
                   Flexible(
                     child: Container(
                       color: Colors.black,
-                      child: TextField(
+                      child: const TextField(
                         cursorColor: Color.fromRGBO(57, 255, 20, 1),
                         maxLines: 15,
                         cursorHeight: 22,
                         cursorWidth: 4,
-                        decoration: const InputDecoration(
+                        decoration: InputDecoration(
                             suffixIcon: Icon(
                               Icons.edit,
                               color: Color.fromRGBO(57, 255, 20, 1),
@@ -122,7 +124,7 @@ class EditPostScreen extends StatelessWidget {
                       ),
                     ),
                   ),
-                  CustomBattomBar(),
+                  const CustomBattomBar(),
                 ],
               ),
             )),
